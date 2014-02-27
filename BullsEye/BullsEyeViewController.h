@@ -10,4 +10,11 @@
 
 @interface BullsEyeViewController : UIViewController
 
+// An outlet named slider that can be connected to a UISlider object.
+@property (nonatomic, weak) IBOutlet UISlider *slider;
+@property (nonatomic, weak) IBOutlet UILabel *targetLabel;
+
+- (IBAction)showAlert;
+- (IBAction)sliderMoved:(UISlider *)slider;
+
 @end
