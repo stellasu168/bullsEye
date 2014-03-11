@@ -21,6 +21,8 @@
 		5514EC1618BC822F006D899A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5514EBF818BC822F006D899A /* UIKit.framework */; };
 		5514EC1E18BC822F006D899A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5514EC1C18BC822F006D899A /* InfoPlist.strings */; };
 		5514EC2018BC822F006D899A /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5514EC1F18BC822F006D899A /* BullsEyeTests.m */; };
+		5571194218C71EEE00C53BEB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5571194118C71EEE00C53BEB /* AboutViewController.m */; };
+		5571194418CEE38200C53BEB /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 5571194318CEE38200C53BEB /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		5514EC1B18BC822F006D899A /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		5514EC1D18BC822F006D899A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5514EC1F18BC822F006D899A /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		5571194018C71EEE00C53BEB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		5571194118C71EEE00C53BEB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		5571194318CEE38200C53BEB /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,14 @@
 		5514EBFA18BC822F006D899A /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				5571194318CEE38200C53BEB /* BullsEye.html */,
 				5514EC0318BC822F006D899A /* BullsEyeAppDelegate.h */,
 				5514EC0418BC822F006D899A /* BullsEyeAppDelegate.m */,
 				5514EC0618BC822F006D899A /* Main.storyboard */,
 				5514EC0918BC822F006D899A /* BullsEyeViewController.h */,
 				5514EC0A18BC822F006D899A /* BullsEyeViewController.m */,
+				5571194018C71EEE00C53BEB /* AboutViewController.h */,
+				5571194118C71EEE00C53BEB /* AboutViewController.m */,
 				5514EC0C18BC822F006D899A /* Images.xcassets */,
 				5514EBFB18BC822F006D899A /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5514EC0D18BC822F006D899A /* Images.xcassets in Resources */,
+				5571194418CEE38200C53BEB /* BullsEye.html in Resources */,
 				5514EBFF18BC822F006D899A /* InfoPlist.strings in Resources */,
 				5514EC0818BC822F006D899A /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 			files = (
 				5514EC0118BC822F006D899A /* main.m in Sources */,
 				5514EC0B18BC822F006D899A /* BullsEyeViewController.m in Sources */,
+				5571194218C71EEE00C53BEB /* AboutViewController.m in Sources */,
 				5514EC0518BC822F006D899A /* BullsEyeAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

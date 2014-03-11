@@ -13,8 +13,11 @@
 // An outlet named slider that can be connected to a UISlider object.
 @property (nonatomic, weak) IBOutlet UISlider *slider;
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
+@property (nonatomic, weak) IBOutlet UILabel *scorelabel;
+@property (nonatomic, weak) IBOutlet UILabel *roundLabel;
 
 - (IBAction)showAlert;
 - (IBAction)sliderMoved:(UISlider *)slider;
+- (IBAction)startOver;
 
 @end
